@@ -18,14 +18,14 @@ Sample Output:
 The even list [2, 6]
 The odd list [1, 3, 5]
 '''
-# Read the size of the list
+
 size = int(input("Enter the size of the list: "))
 
-# Initialize empty lists for even and odd numbers
+
 even_list = []
 odd_list = []
 
-# Read the elements of the list
+
 for _ in range(size):
     element = int(input())
     if element % 2 == 0:
@@ -33,6 +33,6 @@ for _ in range(size):
     else:
         odd_list.append(element)
 
-# Print the even and odd lists
+
 print("The even list", even_list)
 print("The odd list", odd_list)
